@@ -19,7 +19,7 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": "undefined",
-    "uniqCompNum": 15,
+    "uniqCompNum": 17,
     "versionPublish": "4.11.2",
     "screenshot": "screenshot.png"
   },
@@ -46,7 +46,7 @@
             "color": "#000000",
             "hamburgerColor": "#ffffff"
           },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://radiocomunidad.com/web/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cursor-click mbr-iconfont mbr-iconfont-btn-parent\"></span>¡ESCUCHANOS LOS LUNES A LAS 2:00 PM!</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-warning\" data-app-selector=\".mbr-navbar__items a\" href=\"http://instagram.com/snack_ve\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn-parent\"></span>¡SÍGUENOS EN INSTAGRAM!</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -72,7 +72,7 @@
               "font-size": "12px"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-a\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>¿QUIÉNES SOMOS?</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://instagram.com/snack_ve\" target=\"_blank\"><span class=\"mbri-image-gallery mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>INSTAGRAM</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://www.ivoox.com/escuchar-audios-snack_al_18524882_1.html\" target=\"_blank\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>IVOOX</a></li>    ",
+          "items": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://www.ivoox.com/escuchar-audios-snack_al_18524882_1.html\" target=\"_blank\"><span class=\"mbri-speed mbr-iconfont mbr-iconfont-btn\"></span>NUESTRO IVOOX</a></li>       ",
           "logo": {
             "image": {
               "active": true,
@@ -94,15 +94,15 @@
           "_anchor": "ext_menu-0"
         },
         {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_inherit": "header1",
           "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": false,
-            "contentAlign": "left",
+            "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-20191220-160618-2000x1500.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-20191220-160604-1-2000x1369.png",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -114,28 +114,35 @@
             "overlayColor": "#000000",
             "overlayOpacity": "0.3"
           },
-          "title": "<span style=\"font-weight: normal;\">COMETE UN </span><span style=\"font-weight: normal;\">SNACK</span><br>",
-          "text": "CON GABY Y GIGI",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">DOWNLOAD NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "title": "COMETE UN SNACK",
+          "text": "Escuchanos y ríete con nosotras todos los lunes a las 2:00 PM\n<br>solo por Radio Comunidad.<br><i><b>Descarga la app de Radio Comunidad</b></i>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning\" href=\"https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=ve.com.globalhost.radiocomunidad&amp;ddl=1&amp;pcampaignid=web_ddl_1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>¡ESCUCHANOS!</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_anchor": "header1-5",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header2",
+          "_anchor": "header2-g",
           "_styles": {
-            "SPAN": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "48px"
-            },
             "P": {
-              "text-align": "left",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
               "font-size": "20px"
             },
+            ".btn": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "14px"
+            },
+            "SPAN": {
+              "font-size": "36px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
             "H1": {
-              "text-align": "left"
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "36px"
             }
           }
         },
@@ -144,7 +151,9 @@
           "_styles": {
             ".mbr-header .mbr-header__text": {
               "text-align": "center",
-              "color": "#000000"
+              "color": "#000000",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".mbr-header .mbr-header__subtext": {
               "text-align": "center",
@@ -155,6 +164,11 @@
             },
             ".mbr-article P": {
               "text-align": "center"
+            },
+            ".mbr-header .mbr-header__text SPAN": {
+              "font-size": "30px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           },
           "_params": {
@@ -179,8 +193,8 @@
             "overlayColor": "#28324e",
             "overlayOpacity": 0.2
           },
-          "title": "¿QUIÉNES SOMOS?",
-          "text": "<p><b>SNACK®</b> es un proyecto creado por <b><a href=\"http://instagram.com/gabyazuaje13\" target=\"_blank\" class=\"text-black\">@gabyazuaje13</a></b> y <b><a href=\"http://instagram.com/soygigifer\" target=\"_blank\" class=\"text-black\">@soygigifer</a></b> con el objetivo de hacer un programa de radio enfocado a los jóvenes en donde se hacen entrevistas fuera de lo común con un tono juvenil y despreocupado a personas emprendedoras con el fin de demostrar que la gente y los proyectos que se llevan a cabo en <b>Venezuela</b> son: <b>interesantes</b>, <b>exitosos</b> y <b>esperanzadores</b>.</p>",
+          "title": "<span style=\"font-weight: normal;\">¿QUIÉNES SOMOS?</span>",
+          "text": "<p><b>SNACK®</b> es un proyecto creado por <b><a href=\"http://instagram.com/gabyazuaje13\" target=\"_blank\" class=\"text-black\">@gabyazuaje13</a></b> y <b><a href=\"http://instagram.com/soygigifer\" target=\"_blank\" class=\"text-black\">@soygigifer</a></b> con el objetivo de hacer un programa de radio enfocado a los jóvenes en donde se hacen entrevistas fuera de lo común con un tono juvenil y despreocupado a personas emprendedoras con el fin de demostrar que la gente y los proyectos que se llevan a cabo en <b>Venezuela</b> son: <b>interesantes</b>, <b>exitosos</b> y <b>valen la pena</b>.</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
@@ -195,7 +209,7 @@
             "showSubheader": false,
             "showImages": true,
             "showTitles": true,
-            "showCaptions": false,
+            "showCaptions": true,
             "showButtons": false,
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -284,7 +298,7 @@
             }
           },
           "title3": "<span style=\"font-weight: normal;\">BELLEZAOC</span>",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "caption3": "Centro Estético con servicios de rejuvenecimiento facial, modelado corporal y terapias de spa dirigido por la cosmiatra Omaira Crespo, 25 años al servicio.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
@@ -307,7 +321,7 @@
             }
           },
           "title4": "<span style=\"font-weight: normal;\">ZULA'Z</span>",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "caption4": "Ropa interior a medida adaptada a tus gustos y necesidades.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media5": {
             "image": {
@@ -369,27 +383,29 @@
               "color": "#ffffff",
               "font-family": "'Roboto Condensed', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-size": "17px",
-              "text-align": "left"
+              "font-size": "15px",
+              "text-align": "center"
             },
             ".mbr-section__col .mbr-header__text SPAN": {
               "font-size": "23px"
             },
             ".mbr-section-title .mbr-header__text SPAN": {
-              "font-size": "30px"
+              "font-size": "30px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           }
         },
         {
           "_params": {
             "token": "17674554145.727bfe1.47847ba9990e4103a7323a9c0a72eb1e",
-            "showTitle": false,
+            "showTitle": true,
             "layoutGridRadio": true,
             "imagesPerRowGrid": "5",
             "rows": 2,
             "showMoreButton": false,
             "layoutSliderRadio": false,
-            "imagesPerRowSlider": 4,
+            "imagesPerRowSlider": "6",
             "spacing": "1",
             "fullWidth": false,
             "paddingTop": 1,
@@ -402,7 +418,7 @@
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
           },
-          "title": "<span style=\"font-weight: normal;\">NUESTRO FEED</span>",
+          "title": "<span style=\"font-weight: normal;\">INSTAGRAM FEED</span>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
           "display2": "display-2",
           "display4": "display-4",
@@ -415,7 +431,14 @@
           "_styles": {
             ".inst__title": {
               "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".inst__title SPAN": {
+              "font-size": "30px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           }
         },
@@ -440,7 +463,9 @@
           "_anchor": "footer1-b",
           "_styles": {
             "P": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           }
         }
