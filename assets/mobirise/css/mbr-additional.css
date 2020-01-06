@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+
+
+
+
+
+
+
+#ext_menu-0 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #000000;
+}
+#ext_menu-0 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-0 .mbr-brand__name a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+#ext_menu-0 .mbr-navbar__items a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+}
+#header1-5 SPAN {
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+}
+#header1-5 P {
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+#header1-5 H1 {
+  text-align: left;
+}
+#content5-a .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #000000;
+}
+#content5-a .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-a .mbr-article {
+  color: #000000;
+}
+#content5-a .mbr-article P {
+  text-align: center;
+}
+#features1-8 .mbr-section-title .mbr-header__text {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+}
+#features1-8 .mbr-section__col .mbr-header__text {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+}
+#features1-8 P {
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 17px;
+  text-align: left;
+}
+#features1-8 .mbr-section__col .mbr-header__text SPAN {
+  font-size: 23px;
+}
+#features1-8 .mbr-section-title .mbr-header__text SPAN {
+  font-size: 30px;
+}
+#instagram-feed-block-e .inst__title {
+  font-family: 'Oswald', sans-serif;
+}
+#footer1-b P {
+  color: #ffffff;
+}
